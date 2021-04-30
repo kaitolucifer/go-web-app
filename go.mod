@@ -1,4 +1,4 @@
-module github.com/kaitolucifer/go-web-site
+module github.com/kaitolucifer/go-web-app
 
 go 1.16
 

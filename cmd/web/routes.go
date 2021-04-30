@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/kaitolucifer/go-web-site/pkg/config"
-	"github.com/kaitolucifer/go-web-site/pkg/handlers"
+	"github.com/kaitolucifer/go-web-app/pkg/config"
+	"github.com/kaitolucifer/go-web-app/pkg/handlers"
 )
 
 // routes multiplexer / muxer

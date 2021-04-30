@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/kaitolucifer/go-web-site/pkg/config"
-	"github.com/kaitolucifer/go-web-site/pkg/handlers"
-	"github.com/kaitolucifer/go-web-site/pkg/render"
+	"github.com/kaitolucifer/go-web-app/pkg/config"
+	"github.com/kaitolucifer/go-web-app/pkg/handlers"
+	"github.com/kaitolucifer/go-web-app/pkg/render"
 )
 
 // portNumber is the server port number to use
@@ -28,7 +28,7 @@ func main() {
 	app.Session.Cookie.Persist = true
 	app.Session.Cookie.SameSite = http.SameSiteLaxMode
 	app.Session.Cookie.Secure = app.InProduction
-	
+
 	tc, err := render.CreateTemplateCache()
 	if err != nil {
 		log.Fatal("cannot create template cache")

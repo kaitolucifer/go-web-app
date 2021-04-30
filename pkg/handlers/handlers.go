@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kaitolucifer/go-web-site/pkg/config"
-	"github.com/kaitolucifer/go-web-site/pkg/models"
-	"github.com/kaitolucifer/go-web-site/pkg/render"
+	"github.com/kaitolucifer/go-web-app/pkg/config"
+	"github.com/kaitolucifer/go-web-app/pkg/models"
+	"github.com/kaitolucifer/go-web-app/pkg/render"
 )
 
 // Repo the repository used by the handlers

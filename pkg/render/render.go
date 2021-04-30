@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/kaitolucifer/go-web-site/pkg/config"
-	"github.com/kaitolucifer/go-web-site/pkg/models"
+	"github.com/kaitolucifer/go-web-app/pkg/config"
+	"github.com/kaitolucifer/go-web-app/pkg/models"
 )
 
 var functions = template.FuncMap{}
