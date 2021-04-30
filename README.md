@@ -18,6 +18,6 @@
 A simple template to start building web application with go.
 
 - Built in Go version 1.16
-- Uses the [chi](github.com/go-chi/chi) router
-- Uses alex edwards [SCS](github.com/alexedwards/scs) session management
-- UUses [nosurf](github.com/justinas/nosurf)
+- Uses the [chi router](https://github.com/go-chi/chi)
+- Uses alex edwards [SCS session management](https://github.com/alexedwards/scs)
+- UUses [nosurf](https://github.com/justinas/nosurf)
