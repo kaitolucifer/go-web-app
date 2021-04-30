@@ -32,7 +32,6 @@ func NewHandlers(r *Repository) {
 // Home is the home page handler
 func (repo *Repository) Home(w http.ResponseWriter, r *http.Request) {
 	remoteIP := r.RemoteAddr
-	fmt.Println(remoteIP)
 	repo.App.Session.Put(r.Context(), "remote_ip", remoteIP)
 	render.RenderTemplate(w, "home.page.html", &models.TemplateData{})
 }
