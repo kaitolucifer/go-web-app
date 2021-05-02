@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/kaitolucifer/go-web-app/pkg/config"
-	"github.com/kaitolucifer/go-web-app/pkg/handlers"
-	"github.com/kaitolucifer/go-web-app/pkg/render"
+	"github.com/kaitolucifer/go-web-app/internal/config"
+	"github.com/kaitolucifer/go-web-app/internal/handlers"
+	"github.com/kaitolucifer/go-web-app/internal/render"
 )
 
 // portNumber is the server port number to use
