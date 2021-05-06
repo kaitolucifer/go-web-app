@@ -15,7 +15,7 @@
   0. You just DO WHAT THE FUCK YOU WANT TO.
 </pre>
 
-A simple template to start building web application with go.
+A simple template to start building web application with Go.
 
 - Built in Go version 1.16
 - Uses the [chi router](https://github.com/go-chi/chi)
